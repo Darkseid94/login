@@ -1,0 +1,77 @@
+body {
+    background-image: url(../img/fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* cudro contenedor de fromulario */ 
+.formulario {
+    background: rgba(0, 177, 136, .5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+/*fromulario*/
+.form-control {
+    background: rgba(135, 138, 141, .3);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+}
+
+/* enfoke de formulario*/
+.form-control:focus {
+    background: rgba(0, 84, 111, .5);
+    box-shadow: none;
+    outline: none;
+    color: white;
+}
+
+/* text de formulario*/
+.form-control::placeholder {
+    color: white;
+}
+
+/*boton*/
+.ingresar {
+    background: rgba(0, 84, 111, 1);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    /*box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);  sonbras*/
+    transition: 0.5s ease-in;
+}
+
+/*cambia color de texto ingresa*/
+.ingresar:hover {
+    color: rgb(255, 255, 255);
+}
+/*formato de texto olvide contra*/
+.olvide {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+/*evitar formato hipervinculo*/
+.olvide:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.imgPerfil {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border:8px solid rgba(0, 84, 111, 1);
+}
+.color{
+    color: white;  
+}
